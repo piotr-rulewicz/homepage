@@ -1,0 +1,18 @@
+.header {
+  background-color: #e2f3dd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 9px #e2f3dd;
+  text-align: center;
+}
+
+.header--darker {
+  background-color: #346d22;
+  box-shadow: 3px 3px 9px #346d22;
+  color: #e2f3dd;
+}
+
+.header__heading {
+  padding: 20px;
+}

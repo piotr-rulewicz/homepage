@@ -1,0 +1,64 @@
+.article {
+  background-color: #e2f3dd;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 9px #e2f3dd;
+}
+
+.article__text {
+  text-align: justify;
+}
+
+.article__text--important {
+  color: #f00;
+}
+
+.article__text--centered {
+  text-align: center;
+}
+
+.article__picturesConteiner {
+  text-align: center;
+}
+
+.article__pictures {
+  width: 90%;
+}
+
+.article__listItem {
+  list-style: none;
+}
+
+.article__switchHeaderButton,
+.article__switchBackgroundButton {
+  min-width: 30%;
+  background-color: #346d22;
+  border: none;
+  padding: 1%;
+  color: #e2f3dd;
+  font-size: 20px;
+}
+
+.article__conteinerForTable {
+  overflow-x: auto;
+}
+
+.article__link {
+  text-decoration: none;
+}
+
+.article__link:visited {
+  color: #222;
+}
+
+.article__link:focus {
+  outline: 2px solid #222;
+}
+
+.article__link:hover {
+  border-bottom: 2px solid #222;
+}
+
+.article__link:active {
+  color: #f00;
+}
