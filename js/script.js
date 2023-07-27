@@ -1,11 +1,13 @@
+{
+
 console.log("Hello, World!");
 
-let switchHeaderButton = document.querySelector(".article__switchHeaderButton");
-let mainHeader = document.querySelector(".header");
-let mainHeaderDarker = document.querySelector(".js-article__switchHeaderButton");
-let switchBackgroundButton = document.querySelector(".article__switchBackgroundButton");
-let body = document.querySelector(".body");
-let bodyDarker = document.querySelector(".js-article__switchBackgroundButton");
+const switchHeaderButton = document.querySelector(".article__switchHeaderButton");
+const mainHeader = document.querySelector(".header");
+const mainHeaderDarker = document.querySelector(".js-article__switchHeaderButton");
+const switchBackgroundButton = document.querySelector(".article__switchBackgroundButton");
+const body = document.querySelector(".body");
+const bodyDarker = document.querySelector(".js-article__switchBackgroundButton");
 
 switchHeaderButton.addEventListener("click", () => {
   mainHeader.classList.toggle("header--darker");
@@ -20,3 +22,5 @@ switchBackgroundButton.addEventListener("click", () => {
   bodyDarker.innerText =
     body.classList.contains("body--darker") ? "domyślny" : "inny";
 });
+
+}
