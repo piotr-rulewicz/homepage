@@ -1,26 +1,45 @@
 {
 
-console.log("Hello, World!");
+const welcome = () => {
+  console.log("Hello, World!");
+}
 
-const switchHeaderButton = document.querySelector(".article__switchHeaderButton");
-const mainHeader = document.querySelector(".header");
-const mainHeaderDarker = document.querySelector(".js-article__switchHeaderButton");
-const switchBackgroundButton = document.querySelector(".article__switchBackgroundButton");
-const body = document.querySelector(".body");
-const bodyDarker = document.querySelector(".js-article__switchBackgroundButton");
+welcome();
 
-switchHeaderButton.addEventListener("click", () => {
-  mainHeader.classList.toggle("header--darker");
+const init = () => {
 
-  mainHeaderDarker.innerText =
+const toogleHeaderColor = () => {
+  const switchHeaderButton = document.querySelector(".article__switchHeaderButton");
+  const mainHeader = document.querySelector(".header");
+  const mainHeaderDarker = document.querySelector(".js-article__switchHeaderButton");
+  
+  switchHeaderButton.addEventListener("click", () => {
+    mainHeader.classList.toggle("header--darker");
+    
+    mainHeaderDarker.innerText =
     mainHeader.classList.contains("header--darker") ? "domyślny" : "inny";
 });
+}
 
-switchBackgroundButton.addEventListener("click", () => {
-  body.classList.toggle("body--darker");
+toogleHeaderColor();
 
-  bodyDarker.innerText =
+const toogleBackgroundColor = () => {
+  const switchBackgroundButton = document.querySelector(".article__switchBackgroundButton");
+  const body = document.querySelector(".body");
+  const bodyDarker = document.querySelector(".js-article__switchBackgroundButton");
+  
+  switchBackgroundButton.addEventListener("click", () => {
+    body.classList.toggle("body--darker");
+
+    bodyDarker.innerText =
     body.classList.contains("body--darker") ? "domyślny" : "inny";
 });
+}
+
+toogleBackgroundColor();
+
+}
+
+init();
 
 }
