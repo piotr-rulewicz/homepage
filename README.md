@@ -30,6 +30,11 @@ Have a fun!
 
 ![Screenshot 4: alternative background color](/img/9_screen-homepage_readme.jpg)
 
+## Update 2024-12-31
+
+Updated the content of the page, refactored HTML and CSS code.<br>
+Checked the JavaScript code and tested the functionality.
+
 ## Demo
 
 https://piotr-rulewicz.github.io/homepage/
