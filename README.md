@@ -2,13 +2,13 @@
 
 ## Description
 
-This is my first website made to practice HTML, CSS and Javascript skills.<br>
-The **BEM** convention and **normalize.css** were used. In Javascript code I used **arrow functions**.<br>
+This is my first website made to practice HTML, CSS and JavaScript skills.<br>
+The **BEM** convention and **normalize.css** were used. In JavaScript code I used **arrow functions**.<br>
 I invite you to familiarize yourself with my work.
 
 ## What can you find here and how it's working
 
-I've posted here the solutions to the webdev course from **"Youcode"**. Lessons **2 to 5**.<br>
+I've posted here the solutions to the webdev course.<br>
 There are two buttons on the page. One changes the color of the header. The second changes the background color.<br>
 Have a fun!
 

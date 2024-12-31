@@ -1,16 +1,12 @@
 .navigation {
-  background-color: #e2f3dd;
+  background-color: #eee;
   margin-bottom: 20px;
   padding: 20px;
-  box-shadow: 3px 3px 9px #e2f3dd;
-}
-
-.navigation__list {
-  padding-left: 0;
+  box-shadow: 3px 3px 9px #000;
 }
 
 .navigation__listItem {
-  list-style: none;
+  list-style: square;
 }
 
 .navigation__link {
@@ -18,17 +14,18 @@
 }
 
 .navigation__link:visited {
-  color: #222;
+  color: #444;
 }
 
 .navigation__link:focus {
-  outline: 2px solid #222;
+  outline: 1px solid #444;
 }
 
 .navigation__link:hover {
-  border-bottom: 2px solid #222;
+  cursor: pointer;
+  border-bottom: 1px solid #444;
 }
 
 .navigation__link:active {
-  color: #f00;
+  color: #000;
 }

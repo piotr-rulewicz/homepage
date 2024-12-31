@@ -9,22 +9,23 @@
 }
 
 .table__cell {
-  border: 1px solid #222;
+  border: 1px solid #000;
+  box-shadow: 3px 3px 9px #000;
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: center;
 }
 
 .table__cell--header {
-  background-color: #346d22;
-  color: #ddd;
-  font-weight: normal;
+  background-color: #aaa;
+  color: #000;
+  font-weight: 900;
 }
 
 .table__cell:hover {
-  color: #f00;
+  color: #444;
 }
 
 .table__cell--header:hover {
-  color: #222;
+  color: #fff;
 }
