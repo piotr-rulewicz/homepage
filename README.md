@@ -1,4 +1,4 @@
-# Piotr Rulewicz - my first page
+# My first page
 
 ## Description
 
@@ -10,7 +10,7 @@ I invite you to familiarize yourself with my work.
 
 I've posted here the solutions to the webdev course.<br>
 There are two buttons on the page. One changes the color of the header. The second changes the background color.<br>
-Have a fun!
+Have a fun! 😉
 
 ## Screenshots
 
