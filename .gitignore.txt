@@ -1,5 +1,0 @@
-# Excluding files from Git
-.gitignore.txt
-homepage.code-workspace
-
-###
