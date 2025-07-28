@@ -21,3 +21,5 @@ GitHub repository 👉 [link to repository][def]
 ## License
 
 This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+<!-- Testowy "git push" z "maca" -->
