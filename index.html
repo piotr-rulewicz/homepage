@@ -1,272 +1,322 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauka HTML, CSS, JavaScript | Zadania</title>
 
-  <title>Nauka HTML, CSS, JavaScript | Zadania</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style-reset.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link href="css/style-reset.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-  <link rel="icon" href="img/favicon.ico">
+    <link href="css/body.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/nav.css" rel="stylesheet" />
+    <link href="css/article.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+  </head>
 
-  <link href="css/body.css" rel="stylesheet">
-  <link href="css/header.css" rel="stylesheet">
-  <link href="css/nav.css" rel="stylesheet">
-  <link href="css/article.css" rel="stylesheet">
-  <link href="css/table.css" rel="stylesheet">
-  <link href="css/footer.css" rel="stylesheet">
-</head>
-
-<body class="body">
-  <header class="header">
-    <h1 id="topPage" class="header__heading">Nauka HTML, CSS, JavaScript | Zadania</h1>
-  </header>
-  <nav class="navigation">
-    <h2 class="navigation__heading">Nawigacja po witrynie</h2>
-    <ul class="navigation__list">
-      <li class="navigation__listItem"><a class="navigation__link" href="#firstArticle">Artykuł pierwszy (pkt. I. -
-          III.)</a>
-      </li>
-      <li class="navigation__listItem"><a class="navigation__link" href="#secondArticle">Artykuł drugi (pkt. IV.)</a>
-      </li>
-      <li class="navigation__listItem"><a class="navigation__link" href="#interactiveButtons">Przyciski interaktywne</a>
-      </li>
-      <li class="navigation__listItem"><a class="navigation__link" href="#thirdArticle">Artykuł trzeci (pkt. V.)</a>
-      </li>
-      <li class="navigation__listItem"><a class="navigation__link" href="#tableTopFive">Tabela</a></li>
-    </ul>
-  </nav>
-  <main class="main">
-    <article class="article">
-      <h2 lang="la" id="firstArticle" class="article__heading">I. Lorem</h2>
-      <p lang="la" class="article__text">
-        <strong>Lorem</strong>, ipsum dolor sit amet consectetur adipisicing elit. Ex facilis, rem eligendi et nesciunt
-        dolorum iure
-        saepe praesentium. Veritatis reiciendis vero hic dicta, iste numquam? Minima ipsa libero voluptatum dolores!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas repellendus perferendis, dignissimos
-        asperiores ipsa. Quod, nesciunt odio ipsum commodi possimus odit cumque necessitatibus voluptas harum laudantium
-        inventore animi esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vel in earum labore impedit
-        suscipit at sapiente dolor fuga necessitatibus ipsum, natus, sunt ea aliquid reprehenderit quis obcaecati.
-        Recusandae, sint!
-      </p>
-      <hr>
-      <h2 lang="la" class="article__heading">II. Ipsum</h2>
-      <p lang="la" class="article__text">
-        Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Itaque repellat amet, natus,
-        voluptatem accusantium
-        expedita assumenda veritatis hic dolor pariatur rerum odit? Unde corrupti nihil, laborum sequi fugit repellat
-        laudantium!
-        Natus, accusamus vero quo iusto magnam omnis. Laborum, libero harum! Iure perferendis deserunt nihil dolore eos
-        maiores, earum quod architecto rerum optio rem sequi inventore esse voluptatibus voluptatem deleniti. Quod.
-        Minima, accusantium. Voluptatum dolor dolorum culpa aspernatur. Sit cum quidem explicabo nobis repellendus
-        similique ipsam, culpa perferendis corrupti quae accusamus libero delectus repellat laboriosam aliquam eveniet
-        molestias numquam earum sunt.
-      </p>
-      <hr>
-      <h2 lang="la" class="article__heading">III. Dolor</h2>
-      <p lang="la" class="article__text">
-        Lorem ipsum <strong>dolor</strong>, sit amet consectetur adipisicing elit. Eaque, voluptates aliquid quod esse
-        ullam facere nisi culpa veritatis iste harum reprehenderit iure commodi officiis id pariatur animi, temporibus
-        repellat dolor.
-        Neque numquam quasi et repellat quam explicabo aliquam quaerat pariatur eligendi corporis, autem quas harum
-        fugit saepe? Quas sit eveniet quae, adipisci, necessitatibus voluptatibus corporis doloremque, ipsa laborum
-        excepturi cumque!
-        Maiores dolor enim iste ullam placeat impedit repellendus assumenda accusantium in est adipisci vel totam at
-        sapiente molestias ratione quo tenetur numquam, animi odio eveniet ipsa minima inventore! Animi, minus.
-      </p>
-    </article>
-    <article class="article">
-      <h2 id="secondArticle" class="article__heading">IV. Zadania - część pierwsza
-      </h2>
-      <h3 class="article__heading">
-        1. Zastosowanie DevTools
-      </h3>
-      <p class="article__text">
-        DevTools (narzędzia deweloperskie) są to wbudowane w przeglądarkę narzędzia dla programistów stron
-        internetowych.
-      </p>
-      <div class="article__picturesConteiner">
-        <img class="article__pictures" src="img/1_lotto_baner.jpg" title="Wykorzystanie DevTools"
-          alt="Wykorzystanie DevTools">
-      </div>
-      <h3 class="article__heading">
-        2. Ustawienie w systemie widocznych rozszerzeń plików
-      </h3>
-      <p class="article__text">
-        Obrazek poniżej pokazuje włączone i widoczne rozszerzenia plików w systemie Windows 10 (zakreślone są czerwonym
-        kolorem).
-      </p>
-      <div class="article__picturesConteiner">
-        <img class="article__pictures" src="img/2_rozszerzenia_plikow_on.jpg"
-          title="Widoczne rozszerzenia plików w systemie" alt="Widoczne rozszerzenia plików w systemie">
-      </div>
-      <h3 class="article__heading">3. Utworzenie folderu homepage</h3>
-      <p class="article__text">Obrazek poniżej pokazuje utworzony folder homepage (zakreślony jest czerwonym kolorem).
-      </p>
-      <div class="article__picturesConteiner">
-        <img class="article__pictures" src="img/3_folder_homepage.jpg" title="Utworzenie folderu homepage"
-          alt="Utworzenie folderu homepage">
-      </div>
-      <h3 class="article__heading">
-        4. Wykorzystanie poznanych do tej pory znaczników HTML
-      </h3>
-      <p lang="la" class="article__text">
-        <b>Lorem</b>&nbsp;<span lang="la" class="article__text--important">ipsum dolor.&nbsp;<em>Lorem ipsum dolor sit
-            amet,
-            consectetur adipisicing elit.</em>&nbsp;</span>Eaque, voluptates aliquid quod esse
-        ullam facere nisi culpa veritatis iste harum reprehenderit iure commodi officiis id pariatur animi, temporibus
-        repellat dolor.<br>
-        Neque numquam quasi et repellat quam explicabo aliquam quaerat pariatur eligendi corporis, autem quas harum
-        fugit saepe? Quas sit eveniet quae, adipisci, necessitatibus voluptatibus corporis doloremque, ipsa laborum
-        excepturi cumque!
-      </p>
-      <p class="article__text">Wykorzystane zostały m.in. poniższe znaczniki:</p>
-      <ul class="article__list">
-        <li class="article__listItem">akapit z treścią "&nbsp;p&nbsp;"</li>
-        <li class="article__listItem">nagłówki "&nbsp;h1&nbsp;",&nbsp;"&nbsp;h2&nbsp;"&nbsp;i&nbsp;"&nbsp;h3&nbsp;"</li>
-        <li class="article__listItem">znak nowej linii "&nbsp;br&nbsp;"</li>
-        <li class="article__listItem">coś ważnego, ostrzeżenie "&nbsp;<strong>strong</strong>&nbsp;"</li>
-        <li class="article__listItem">zwrócenie uwagi "&nbsp;<b>b</b>&nbsp;"</li>
-        <li class="article__listItem">nacisk, akcent (<i>emphasis</i>), czyli
-          znacznik&nbsp;"&nbsp;<b><i>em</i></b>&nbsp;"</li>
-        <li class="article__listItem">pojęcia techniczne, słowa w obcych językach "&nbsp;<b><i>i</i></b>&nbsp;"
+  <body class="body">
+    <header class="header">
+      <h1 id="topPage" class="header__heading">Nauka HTML, CSS, JavaScript | Zadania</h1>
+    </header>
+    <nav class="navigation">
+      <h2 class="navigation__heading">Nawigacja po witrynie</h2>
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#firstArticle">Artykuł pierwszy (pkt. I. - III.)</a>
         </li>
-        <li class="article__listItem">wstawienie obrazka "&nbsp;img&nbsp;"</li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#secondArticle">Artykuł drugi (pkt. IV.)</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#interactiveButtons">Przyciski interaktywne</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#thirdArticle">Artykuł trzeci (pkt. V.)</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#tableTopFive">Tabela</a>
+        </li>
       </ul>
-      <h3 class="article__heading">5. Sprawdzanie kodu na kolejnych etapach nauki za pomocą walidatora</h3>
-      <p class="article__text">Obrazek poniżej pokazuje fragment okna walidatora, który nie wykrył żadnego błędu.
-      </p>
-      <div class="article__picturesConteiner">
-        <img class="article__pictures" src="img/4_walidacja.jpg"
-          title="Wykorzystanie walidatora (brak wykrytych błędów)"
-          alt="Wykorzystanie walidatora (brak wykrytych błędów)">
-      </div>
-      <h3 class="article__heading">6.A. i 6.B. Dodanie zewnętrznego pliku arkusza stylów CSS, a następnie
-        wykonanie refactoringu strony, zgodnie z konwencją BEM</h3>
-      <p class="article__text">
-        <b>6.A.</b> Dodanie zewnętrznego pliku arkusza stylów CSS ("style.css") i zmiana za jego pomocą kolorów, fontów
-        oraz tła wybranych elementów z wykorzystaniem klas.
-      <p class="article__text"><b>6.B.</b> Zastosowanie konwencji BEM i refactoringu wymagało utworzenia odpowiednich
-        plików CSS w folderze "css".
-      </p>
-      <h3 class="article__heading">7. Dodanie kodu JavaScript w osobnym pliku</h3>
-      <p class="article__text">Plik "script.js" umieszczony został w folderze "js".</p>
-      <h3 class="article__heading">
-        8. Dodanie w konsoli wiadomości dla deweloperów
-      </h3>
-      <p class="article__text">Konsola wypisuje "Hello World!".</p>
-      <h3 id="interactiveButtons" class="article__heading">9. Pierwsza interakcja z przyciskiem</h3>
-      <button class="article__switchHeaderButton" type="button">Przełącz nagłówek strony na <span
-          class="js-article__switchHeaderButton">inny</span> kolor</button>
-      <h3 class="article__heading">10. Druga interakcja z przyciskiem</h3>
-      <button class="article__switchBackgroundButton" type="button">Przełącz tło strony na <span
-          class="js-article__switchBackgroundButton">inny</span>
-        kolor</button>
-    </article>
-    <article class="article">
-      <h2 id="thirdArticle" class="article__heading">V. Kolejne zadania
-      </h2>
-      <h3 class="article__heading">1. Ograniczenie szerokości i wyśrodkowanie treści na stronie</h3>
-      <p class="article__text">Ustawienie maksymalnej szerokości treści na 1200 pikseli i wyśrodkowanie treści strony.
-      </p>
-      <h3 class="article__heading">2. Dodanie alternatywnego "box model"</h3>
-      <p class="article__text">Ustawienie "box-sizing" na "border-box".</p>
-      <h3 id="tableTopFive" class="heading">3. Wstawienie tabeli</h3>
-      <p class="article__text">Tabela poniżej zawiera nagłówki kolumn i
-        wierszy. Obramowania komórek są połączone i dodatkowo wyróżnione są też nagłówki.<br>
-        Tabela zawiera tytuły utworów muzycznych wraz z dodatkowymi informacjami.</p>
-      <div class="article__conteinerForTable">
-        <table class="table">
-          <caption class="table__caption"><b>Muzyczne "Top Five"</b></caption>
-          <tr>
-            <th class="table__cell table__cell--header" scope="col">Tytuł</th>
-            <th class="table__cell table__cell--header" scope="col">Album</th>
-            <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
-            <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
-            <th class="table__cell table__cell--header" scope="col">Gatunek</th>
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header" scope="row">I Believe</th>
-            <td class="table__cell">Out of Myself</td>
-            <td class="table__cell" rowspan="2">Riverside</td>
-            <td class="table__cell">2004</td>
-            <td class="table__cell" rowspan="2">Progressive Rock</td>
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header" scope="row">Dance With The Shadow</th>
-            <td class="table__cell">Second Life Syndrome</td>
-            <td class="table__cell">2005</td>
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header" scope="row">The Healing Place</th>
-            <td class="table__cell">Gone To Earth</td>
-            <td class="table__cell">David Sylvian</td>
-            <td class="table__cell">1986</td>
-            <td class="table__cell">Rock</td>
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header" scope="row">Szał Niebieskich Ciał</th>
-            <td class="table__cell">Maanam (2011 Remaster)</td>
-            <td class="table__cell">Maanam</td>
-            <td class="table__cell">1980</td>
-            <td class="table__cell">Rock</td>
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header" scope="row">Terminal 7</th>
-            <td class="table__cell">Dark Eyes</td>
-            <td class="table__cell">Tomasz Stańko Quintet</td>
-            <td class="table__cell">2009</td>
-            <td class="table__cell">Jazz</td>
-          </tr>
-        </table>
-      </div>
-      <h3 class="article__heading">4. Podział strony na sekcje</h3>
-      <p class="article__text">Użyte zostały sekcje "header", "nav", "main", "article" oraz "footer".</p>
-      <h3 class="article__heading">5. Dodanie nawigacji po stronie</h3>
-      <p class="article__text">Nawigacja oparta jest na liście nieuporządkowanej i umieszczonych w niej linkach.
-        Elementy listy są wyróżnione kwadracikami "square". Zmienione również jest domyślne stylowanie linków.</p>
-      <h3 class="article__heading">6. Podstawowe stylowanie elementów strony</h3>
-      <p class="article__text">Stylowanie wykorzystuje m.in. "margin", "padding", "border". Zmienione są również
-        domyślne rozmiary i
-        kolory.</p>
-      <h3 class="article__heading">7. Ustawienie większych odstępów między wierszami i dodanie czcionki z Google Fonts
-      </h3>
-      <p class="article__text">Wykorzystane są fonty "Ubuntu" z Google Fonts i jednocześnie zwiększone zostały odstępy
-        między wierszami.
-      </p>
-      <h3 class="article__heading">8. Zmodyfikowanie interakcji przycisków tak, aby działały one różnie, w zależności od
-        konkretnej
-        wartości
-      </h3>
-      <p class="article__text">Zmodyfikowane przyciski zmieniają zarówno wygląd elementów
-        strony, jak i własną treść 👉 <a class="article__link" href="#interactiveButtons">Kliknij i zobacz jak to działa
-        </a>👆
-      </p>
-      <h3 class="article__headings">9. Zakończenie</h3>
-      <p class="article__text">Po wykonaniu wszystkich zadań, walidacji kodu i przetestowaniu interakcji, strona została
-        umieszczona i udostępniona na GitHub Pages.
-      </p>
-      <p class="article__text article__text--centered">👉<a class="article__link" href="#topPage"> Powrót na górę strony
-        </a>👆</p>
-    </article>
-  </main>
-  <footer class="footer">
-    <p class="footer__text">Zadania z nauki HTML, CSS, JavaScript</p>
-    <p class="footer__text">Wykonanie: Piotr Rulewicz</p>
-    <p class="footer__text">Maj 2025</p>
-  </footer>
+    </nav>
+    <main class="main">
+      <article class="article">
+        <h2 lang="la" id="firstArticle" class="article__heading">I. Lorem</h2>
+        <p lang="la" class="article__text">
+          <strong>Lorem</strong>, ipsum dolor sit amet consectetur adipisicing elit. Ex facilis, rem
+          eligendi et nesciunt dolorum iure saepe praesentium. Veritatis reiciendis vero hic dicta,
+          iste numquam? Minima ipsa libero voluptatum dolores! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Beatae quas repellendus perferendis, dignissimos asperiores
+          ipsa. Quod, nesciunt odio ipsum commodi possimus odit cumque necessitatibus voluptas harum
+          laudantium inventore animi esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Unde vel in earum labore impedit suscipit at sapiente dolor fuga necessitatibus ipsum,
+          natus, sunt ea aliquid reprehenderit quis obcaecati. Recusandae, sint!
+        </p>
+        <hr />
+        <h2 lang="la" class="article__heading">II. Ipsum</h2>
+        <p lang="la" class="article__text">
+          Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Itaque repellat
+          amet, natus, voluptatem accusantium expedita assumenda veritatis hic dolor pariatur rerum
+          odit? Unde corrupti nihil, laborum sequi fugit repellat laudantium! Natus, accusamus vero
+          quo iusto magnam omnis. Laborum, libero harum! Iure perferendis deserunt nihil dolore eos
+          maiores, earum quod architecto rerum optio rem sequi inventore esse voluptatibus
+          voluptatem deleniti. Quod. Minima, accusantium. Voluptatum dolor dolorum culpa aspernatur.
+          Sit cum quidem explicabo nobis repellendus similique ipsam, culpa perferendis corrupti
+          quae accusamus libero delectus repellat laboriosam aliquam eveniet molestias numquam earum
+          sunt.
+        </p>
+        <hr />
+        <h2 lang="la" class="article__heading">III. Dolor</h2>
+        <p lang="la" class="article__text">
+          Lorem ipsum <strong>dolor</strong>, sit amet consectetur adipisicing elit. Eaque,
+          voluptates aliquid quod esse ullam facere nisi culpa veritatis iste harum reprehenderit
+          iure commodi officiis id pariatur animi, temporibus repellat dolor. Neque numquam quasi et
+          repellat quam explicabo aliquam quaerat pariatur eligendi corporis, autem quas harum fugit
+          saepe? Quas sit eveniet quae, adipisci, necessitatibus voluptatibus corporis doloremque,
+          ipsa laborum excepturi cumque! Maiores dolor enim iste ullam placeat impedit repellendus
+          assumenda accusantium in est adipisci vel totam at sapiente molestias ratione quo tenetur
+          numquam, animi odio eveniet ipsa minima inventore! Animi, minus.
+        </p>
+      </article>
+      <article class="article">
+        <h2 id="secondArticle" class="article__heading">IV. Zadania - część pierwsza</h2>
+        <h3 class="article__heading">1. Zastosowanie DevTools</h3>
+        <p class="article__text">
+          DevTools (narzędzia deweloperskie) są to wbudowane w przeglądarkę narzędzia dla
+          programistów stron internetowych.
+        </p>
+        <div class="article__picturesConteiner">
+          <img
+            class="article__pictures"
+            src="img/1_lotto_baner.jpg"
+            title="Wykorzystanie DevTools"
+            alt="Wykorzystanie DevTools"
+          />
+        </div>
+        <h3 class="article__heading">2. Ustawienie w systemie widocznych rozszerzeń plików</h3>
+        <p class="article__text">
+          Obrazek poniżej pokazuje włączone i widoczne rozszerzenia plików w systemie Windows 10
+          (zakreślone są czerwonym kolorem).
+        </p>
+        <div class="article__picturesConteiner">
+          <img
+            class="article__pictures"
+            src="img/2_rozszerzenia_plikow_on.jpg"
+            title="Widoczne rozszerzenia plików w systemie"
+            alt="Widoczne rozszerzenia plików w systemie"
+          />
+        </div>
+        <h3 class="article__heading">3. Utworzenie folderu homepage</h3>
+        <p class="article__text">
+          Obrazek poniżej pokazuje utworzony folder homepage (zakreślony jest czerwonym kolorem).
+        </p>
+        <div class="article__picturesConteiner">
+          <img
+            class="article__pictures"
+            src="img/3_folder_homepage.jpg"
+            title="Utworzenie folderu homepage"
+            alt="Utworzenie folderu homepage"
+          />
+        </div>
+        <h3 class="article__heading">4. Wykorzystanie poznanych do tej pory znaczników HTML</h3>
+        <p lang="la" class="article__text">
+          <b>Lorem</b>&nbsp;<span lang="la" class="article__text--important"
+            >ipsum dolor.&nbsp;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em
+            >&nbsp;</span
+          >Eaque, voluptates aliquid quod esse ullam facere nisi culpa veritatis iste harum
+          reprehenderit iure commodi officiis id pariatur animi, temporibus repellat dolor.<br />
+          Neque numquam quasi et repellat quam explicabo aliquam quaerat pariatur eligendi corporis,
+          autem quas harum fugit saepe? Quas sit eveniet quae, adipisci, necessitatibus voluptatibus
+          corporis doloremque, ipsa laborum excepturi cumque!
+        </p>
+        <p class="article__text">Wykorzystane zostały m.in. poniższe znaczniki:</p>
+        <ul class="article__list">
+          <li class="article__listItem">akapit z treścią "&nbsp;p&nbsp;"</li>
+          <li class="article__listItem">
+            nagłówki "&nbsp;h1&nbsp;",&nbsp;"&nbsp;h2&nbsp;"&nbsp;i&nbsp;"&nbsp;h3&nbsp;"
+          </li>
+          <li class="article__listItem">znak nowej linii "&nbsp;br&nbsp;"</li>
+          <li class="article__listItem">
+            coś ważnego, ostrzeżenie "&nbsp;<strong>strong</strong>&nbsp;"
+          </li>
+          <li class="article__listItem">zwrócenie uwagi "&nbsp;<b>b</b>&nbsp;"</li>
+          <li class="article__listItem">
+            nacisk, akcent (<i>emphasis</i>), czyli znacznik&nbsp;"&nbsp;<b><i>em</i></b
+            >&nbsp;"
+          </li>
+          <li class="article__listItem">
+            pojęcia techniczne, słowa w obcych językach "&nbsp;<b><i>i</i></b
+            >&nbsp;"
+          </li>
+          <li class="article__listItem">wstawienie obrazka "&nbsp;img&nbsp;"</li>
+        </ul>
+        <h3 class="article__heading">
+          5. Sprawdzanie kodu na kolejnych etapach nauki za pomocą walidatora
+        </h3>
+        <p class="article__text">
+          Obrazek poniżej pokazuje fragment okna walidatora, który nie wykrył żadnego błędu.
+        </p>
+        <div class="article__picturesConteiner">
+          <img
+            class="article__pictures"
+            src="img/4_walidacja.jpg"
+            title="Wykorzystanie walidatora (brak wykrytych błędów)"
+            alt="Wykorzystanie walidatora (brak wykrytych błędów)"
+          />
+        </div>
+        <h3 class="article__heading">
+          6.A. i 6.B. Dodanie zewnętrznego pliku arkusza stylów CSS, a następnie wykonanie
+          refactoringu strony, zgodnie z konwencją BEM
+        </h3>
+        <p class="article__text">
+          <b>6.A.</b> Dodanie zewnętrznego pliku arkusza stylów CSS ("style.css") i zmiana za jego
+          pomocą kolorów, fontów oraz tła wybranych elementów z wykorzystaniem klas.
+        </p>
 
-  <script defer src="js/script.js"></script>
+        <p class="article__text">
+          <b>6.B.</b> Zastosowanie konwencji BEM i refactoringu wymagało utworzenia odpowiednich
+          plików CSS w folderze "css".
+        </p>
+        <h3 class="article__heading">7. Dodanie kodu JavaScript w osobnym pliku</h3>
+        <p class="article__text">Plik "script.js" umieszczony został w folderze "js".</p>
+        <h3 class="article__heading">8. Dodanie w konsoli wiadomości dla deweloperów</h3>
+        <p class="article__text">Konsola wypisuje "Hello World!".</p>
+        <h3 id="interactiveButtons" class="article__heading">
+          9. Pierwsza interakcja z przyciskiem
+        </h3>
+        <button class="article__switchHeaderButton" type="button">
+          Przełącz nagłówek strony na <span class="js-article__switchHeaderButton">inny</span> kolor
+        </button>
+        <h3 class="article__heading">10. Druga interakcja z przyciskiem</h3>
+        <button class="article__switchBackgroundButton" type="button">
+          Przełącz tło strony na <span class="js-article__switchBackgroundButton">inny</span> kolor
+        </button>
+      </article>
+      <article class="article">
+        <h2 id="thirdArticle" class="article__heading">V. Kolejne zadania</h2>
+        <h3 class="article__heading">
+          1. Ograniczenie szerokości i wyśrodkowanie treści na stronie
+        </h3>
+        <p class="article__text">
+          Ustawienie maksymalnej szerokości treści na 1200 pikseli i wyśrodkowanie treści strony.
+        </p>
+        <h3 class="article__heading">2. Dodanie alternatywnego "box model"</h3>
+        <p class="article__text">Ustawienie "box-sizing" na "border-box".</p>
+        <h3 id="tableTopFive" class="heading">3. Wstawienie tabeli</h3>
+        <p class="article__text">
+          Tabela poniżej zawiera nagłówki kolumn i wierszy. Obramowania komórek są połączone i
+          dodatkowo wyróżnione są też nagłówki.<br />
+          Tabela zawiera tytuły utworów muzycznych wraz z dodatkowymi informacjami.
+        </p>
+        <div class="article__conteinerForTable">
+          <table class="table">
+            <caption class="table__caption">
+              <b>Muzyczne "Top Five"</b>
+            </caption>
+            <tr>
+              <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+              <th class="table__cell table__cell--header" scope="col">Album</th>
+              <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+              <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+              <th class="table__cell table__cell--header" scope="col">Gatunek</th>
+            </tr>
+            <tr>
+              <th class="table__cell table__cell--header" scope="row">I Believe</th>
+              <td class="table__cell">Out of Myself</td>
+              <td class="table__cell" rowspan="2">Riverside</td>
+              <td class="table__cell">2004</td>
+              <td class="table__cell" rowspan="2">Progressive Rock</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__cell--header" scope="row">Dance With The Shadow</th>
+              <td class="table__cell">Second Life Syndrome</td>
+              <td class="table__cell">2005</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__cell--header" scope="row">The Healing Place</th>
+              <td class="table__cell">Gone To Earth</td>
+              <td class="table__cell">David Sylvian</td>
+              <td class="table__cell">1986</td>
+              <td class="table__cell">Rock</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__cell--header" scope="row">Szał Niebieskich Ciał</th>
+              <td class="table__cell">Maanam (2011 Remaster)</td>
+              <td class="table__cell">Maanam</td>
+              <td class="table__cell">1980</td>
+              <td class="table__cell">Rock</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__cell--header" scope="row">Terminal 7</th>
+              <td class="table__cell">Dark Eyes</td>
+              <td class="table__cell">Tomasz Stańko Quintet</td>
+              <td class="table__cell">2009</td>
+              <td class="table__cell">Jazz</td>
+            </tr>
+          </table>
+        </div>
+        <h3 class="article__heading">4. Podział strony na sekcje</h3>
+        <p class="article__text">
+          Użyte zostały sekcje "header", "nav", "main", "article" oraz "footer".
+        </p>
+        <h3 class="article__heading">5. Dodanie nawigacji po stronie</h3>
+        <p class="article__text">
+          Nawigacja oparta jest na liście nieuporządkowanej i umieszczonych w niej linkach. Elementy
+          listy są wyróżnione kwadracikami "square". Zmienione również jest domyślne stylowanie
+          linków.
+        </p>
+        <h3 class="article__heading">6. Podstawowe stylowanie elementów strony</h3>
+        <p class="article__text">
+          Stylowanie wykorzystuje m.in. "margin", "padding", "border". Zmienione są również domyślne
+          rozmiary i kolory.
+        </p>
+        <h3 class="article__heading">
+          7. Ustawienie większych odstępów między wierszami i dodanie czcionki z Google Fonts
+        </h3>
+        <p class="article__text">
+          Wykorzystane są fonty "Ubuntu" z Google Fonts i jednocześnie zwiększone zostały odstępy
+          między wierszami.
+        </p>
+        <h3 class="article__heading">
+          8. Zmodyfikowanie interakcji przycisków tak, aby działały one różnie, w zależności od
+          konkretnej wartości
+        </h3>
+        <p class="article__text">
+          Zmodyfikowane przyciski zmieniają zarówno wygląd elementów strony, jak i własną treść 👉
+          <a class="article__link" href="#interactiveButtons">Kliknij i zobacz jak to działa </a>👆
+        </p>
+        <h3 class="article__headings">9. Zakończenie</h3>
+        <p class="article__text">
+          Po wykonaniu wszystkich zadań, walidacji kodu i przetestowaniu interakcji, strona została
+          umieszczona i udostępniona na GitHub Pages.
+        </p>
+        <p class="article__text article__text--centered">
+          👉<a class="article__link" href="#topPage"> Powrót na górę strony </a>👆
+        </p>
+      </article>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Zadania z nauki HTML, CSS, JavaScript</p>
+      <p class="footer__text">Wykonanie: Piotr Rulewicz</p>
+      <p class="footer__text">Maj 2025</p>
+    </footer>
 
-</body>
-
+    <script defer src="js/script.js"></script>
+  </body>
 </html>
